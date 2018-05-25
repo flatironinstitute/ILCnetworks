@@ -1,13 +1,14 @@
 #!/bin/bash
 
-pip install --upgrade ipywidgets
-pip install --no-cache-dir notebook==5.4.1
-pip2 install ipywidgets
-pip2 install traitlets
-pip2 install python-igraph
-pip2 install pycrypto
-pip2 install -e git://github.com/simonsfoundation/jp_svg_canvas#egg=jp_svg_canvas
-pip2 install -e git://github.com/simonsfoundation/jp_gene_viz#egg=jp_gene_viz
-pip2 install -e git://github.com/AaronWatters/encrypting_tarball#egg=encrypting_tarball
-pip2 install scipy
-pip2 install --upgrade ipykernel
+#pip install --upgrade ipywidgets
+#pip install --no-cache-dir notebook==5.4.1
+python2 -m pip install ipywidgets
+python2 -m pip install traitlets
+python2 -m pip install python-igraph
+python2 -m pip install pycrypto
+python2 -m pip install -e git://github.com/simonsfoundation/jp_svg_canvas#egg=jp_svg_canvas
+python2 -m pip install -e git://github.com/simonsfoundation/jp_gene_viz#egg=jp_gene_viz
+python2 -m pip install -e git://github.com/AaronWatters/encrypting_tarball#egg=encrypting_tarball
+python2 -m pip install scipy
+python2 -m pip install --upgrade ipykernel
+which pip
