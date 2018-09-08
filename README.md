@@ -3,15 +3,11 @@
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/flatironinstitute/ILCnetworks/master)
 
-This repository uses Jupyter notebooks and encrypted data.
+Interactive visualization of transcriptional regulatory networks (TRNs) and gene expression heatmaps from
+Miraldi\*, Pokrovskii\* et al. (2018) "Characterization of transcriptional regulatory networks that drive the identities
+and functions of intestinal innate lymphoid cells"
 
-You must provide a decryption key when running the `decrypt data notebook widget.ipynb` 
-notebook  to
-decrypt the data before viewing the regulatory network data.
-After you provide the correct password to the widget in the `decrypt data notebook widget.ipynb` 
-notebook the widget will explode the encrypted and compressed archive
-`ILCnetworks.crypt` to create a folder `ILCnetworks`
-containing notebooks and data related to ILC regulatory networks.
+This repository uses Jupyter notebooks to interactively visualize TRNs with [jp_gene_viz](https://github.com/simonsfoundation/jp_gene_viz)
 
 This repository is designed to either run in the cloud using 
 [Binder](https://mybinder.org/v2/gh/flatironinstitute/ILCnetworks/master)
