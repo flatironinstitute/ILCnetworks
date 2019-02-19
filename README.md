@@ -4,10 +4,13 @@
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/flatironinstitute/ILCnetworks/master)
 
 Interactive visualization of transcriptional regulatory networks (TRNs) and gene expression heatmaps from
-Miraldi\*, Pokrovskii\* et al. (2018) "Characterization of transcriptional regulatory networks that drive the identities
-and functions of intestinal innate lymphoid cells"
+Pokrovskii,... Miraldi et al. (2019) "Transcriptional regulatory networks that promote and restrict 
+identities and functions of intestinal innate lymphoid cells".
 
-This repository uses Jupyter notebooks to interactively visualize TRNs with [jp_gene_viz](https://github.com/simonsfoundation/jp_gene_viz)
+This repository uses Jupyter notebooks to interactively visualize TRNs and gene exppression heatmaps 
+with [jp_gene_viz](https://github.com/simonsfoundation/jp_gene_viz)
+
+A [step-by-step ILC network visualization guide](https://mybinder.org/v2/gh/flatironinstitute/ILCnetworks) is available.
 
 This repository is designed to either run in the cloud using 
 [Binder](https://mybinder.org/v2/gh/flatironinstitute/ILCnetworks/master)
