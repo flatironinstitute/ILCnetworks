@@ -10,7 +10,7 @@ identities and functions of intestinal innate lymphoid cells".
 This repository uses Jupyter notebooks to interactively visualize TRNs and gene expression heatmaps 
 with [jp_gene_viz](https://github.com/simonsfoundation/jp_gene_viz)
 
-A [step-by-step ILC network visualization guide](ILCnetworks/ref/step-by-step-ILCnetwork_viz_guide.pdf) is available.
+A [step-by-step ILC network visualization guide](ref/step-by-step-ILCnetwork_viz_guide.pdf) is available.
 
 This repository is designed to either run in the cloud using 
 [Binder](https://mybinder.org/v2/gh/flatironinstitute/ILCnetworks/master)
